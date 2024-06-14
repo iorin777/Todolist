@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>todoリスト</title>
+</head>
+<body>
+    <h1>todolist</h1>
+
+    <div class="inputArea">
+        <input type="text" id="inputText" placeholder="todoを入力" />
+        <button id="addButton">追加</button>
+    </div>
+
+    <div class="incompleteTodo">
+        <h2>未完了のtodo</h2>
+        <ul id ="incompliteList">
+        </ul>
+    </div>
+
+    <div class="completeTodo">
+        <h2>完了のtodo</h2>
+        <ul id ="compliteList">
+        </ul>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

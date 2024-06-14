@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 30px;
+}
+
+.inputArea{
+    background-color: antiquewhite;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input {
+    border: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+
+button{
+    border: none;
+    border-radius: 8px;
+    padding: 4px 16px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+li{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+
+.incompleteTodo{
+    background-color: aqua;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 8px 0;
+}
+
+.completeTodo{
+    background-color: aquamarine;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
